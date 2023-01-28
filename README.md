@@ -6,6 +6,8 @@
 ## Example useage
 `
 import binCraft_decoder
-data = binCraft_decoder.binCraftReader('aircraft.binCraft.zstd')
+
+data = binCraft_decoder.binCraftReader('aircraft.binCraft.zstd',zstd_compressed=True)
+
 print(data)
 `
